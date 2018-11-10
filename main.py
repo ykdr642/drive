@@ -2,7 +2,7 @@ import pytest
 from testTool import Drive
 
 
-def makeMatrix(row:int,column:int,init):
+def makeMatrix(column:int,row:int,init):
     r = [init for i in range(column)]
     m = [r[:] for i in range(row)]
     return m
